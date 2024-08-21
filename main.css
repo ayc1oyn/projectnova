@@ -1,0 +1,242 @@
+body {
+    background-color: white;
+    font-family: "Oswald", sans-serif;
+}
+
+.topBanner {
+    /*все для*/
+    background-image: url(./img/unsplash_ry_sD0P1ZL0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+}
+
+.header-nav {
+    margin-left: 10%;
+    padding-top: 20px;
+}
+
+#logo {
+    width: 200px;
+    transform: scale(1);
+    transition: 0.3s ease;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+.topBanner-title {
+    margin-left: 10%;
+    margin-top: 200px;
+    font-size: 60px;
+}
+
+.topBanner-text {
+    margin-left: 10%;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.topBanner-button {
+    margin-left: 10%;
+    width: 300px;
+    height: 70px;
+    background: none;
+    border-color: #FF0000;
+    border-radius: 9px;
+    border-width: 1px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 30px;
+    transform: scale(1);
+    transition: 0.3s ease;
+}
+
+.topBanner-button:hover {
+    transform: scale(1.1);
+}
+
+#menu-icon {
+    width: 50px;
+    margin-left: 73%;
+    transition: 0.3s ease;
+    transform: scale(1);
+}
+
+#menu-icon:hover {
+    transform: scale(1.1);
+}
+
+.insuranceType-text {
+    background-color: #ffffff; /* Белый фон */
+    padding: 20px;
+    position: relative;
+    margin-top: 400px;
+    margin-left: 10%;
+    font-size: 25px;
+}
+
+.insuranceType-text p {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.insuranceType-button {
+    background: none;
+    border-color: gray;
+    border-radius: 11px;
+    border-width: 1px;
+    width: 225px;
+    height: 225px;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    transform: scale(1);
+    transition: 0.3s ease;
+}
+
+.insuranceType-button:hover {
+    transform: scale(1.1);
+}
+
+.insuranceType {
+    margin-left: 11%;
+    display: flex;
+    gap: 90px;
+}
+
+.insuranceType-button img {
+    width: 100px;
+}
+
+#img-car {
+    padding-top: 50px;
+}
+
+.planRate {
+    background-image: url(./img/Mask\ group.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+    width: 100%;
+    height: 50vh;
+}
+
+.planRate-text h1 {
+    margin-left: 10%;
+    margin-top: -20%;
+    font-size: 45px;
+}
+
+.planRate-text p {
+    margin-left: 10%;
+    margin-top: 0%;
+    font-size: 20px;
+}
+
+.planRate-content {
+    border: 1px solid gray;
+    width: 380px;
+    height: 478px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.planRate-content h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    font-size: 27px;
+}
+
+.content {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.content-value {
+    font-weight: 700;
+}
+
+.planRate-button {
+    margin-left: 18%;
+    width: 250px;
+    height: 60px;
+    background: none;
+    border: 1px solid #FF0000;
+    border-radius: 9px;
+    font-family: "Oswald", sans-serif;
+    font-size: 17px;
+    transform: scale(1);
+    transition: 0.3s ease;
+}
+
+.planRate-button:hover {
+    transform: scale(1.1);
+}
+
+.planRate-container {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 19%;
+    margin-top: 5%;
+}
+
+.custom-list li {
+    margin-top: 25px;
+}
+
+ul.custom-list {
+    list-style-image: url(./img/Group\ 19.png);
+}
+
+.why-life-content {
+    width: 450px;
+}
+
+.why-life-container {
+    margin-left: 19%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.why-life-container img {
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-top: 75px;
+    left: 100px;
+
+} 
+
+.why-life-container h1 {
+    font-size: 40px;
+}
+
+.why-life-content li {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.why-life-content p {
+    font-size: 16px;
+}
+
